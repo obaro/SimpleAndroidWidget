@@ -9,7 +9,7 @@ import android.util.Log;
 import android.widget.RemoteViews;
 
 import java.util.Random;
-
+//add your values to string also. 
 public class SimpleWidgetProvider extends AppWidgetProvider {
 
     @Override
@@ -32,5 +32,6 @@ public class SimpleWidgetProvider extends AppWidgetProvider {
             remoteViews.setOnClickPendingIntent(R.id.actionButton, pendingIntent);
             appWidgetManager.updateAppWidget(widgetId, remoteViews);
         }
+
     }
 }
